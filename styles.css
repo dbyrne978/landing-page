@@ -1,6 +1,7 @@
 body{
     margin: auto;
     width: 980px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .header{
@@ -22,5 +23,50 @@ body{
 }
 
 .header-links div{
+    flex: 1;
+}
+
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-text{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.hero-title{
+    flex: 1;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-subtext{
+    flex: 1;
+}
+
+.hero-text button{
+    flex: 1;
+    margin-top: 10px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    border-style: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.hero-image{
     flex: 1;
 }
