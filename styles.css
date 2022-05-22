@@ -1,0 +1,26 @@
+body{
+    margin: auto;
+    width: 980px;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-top: 10px;
+}
+
+.header-logo{
+    flex: 1;
+}
+
+.header-links{
+    flex: 1;
+    display: flex;
+}
+
+.header-links div{
+    flex: 1;
+}
