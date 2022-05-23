@@ -1,3 +1,7 @@
+html{
+    background-color: black;
+}
+    
 body{
     margin: auto;
     width: 980px;
@@ -50,6 +54,7 @@ body{
 
 .hero-subtext{
     flex: 1;
+    font-size: 14px;
 }
 
 .hero-text button{
@@ -69,4 +74,51 @@ body{
 
 .hero-image{
     flex: 1;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #1F2937;
+    padding-right: 140px;
+    padding-left: 140px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.information-text{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    flex: 1;
+    margin-bottom: 40px;
+}
+
+.information-sections{
+    flex: 1;
+    display: flex;
+}
+
+.information-sections div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-sections img{
+    flex: 1;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    min-height: 100px;
+    margin: auto;
+}
+
+.information-sections p{
+    flex: 1;
+    text-align: center;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
