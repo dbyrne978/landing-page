@@ -1,10 +1,4 @@
-html{
-    background-color: black;
-}
-    
 body{
-    margin: auto;
-    width: 980px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -22,12 +16,13 @@ body{
 }
 
 .header-links{
-    flex: 1;
+    flex: 2;
     display: flex;
+    justify-content: flex-end;
 }
 
 .header-links div{
-    flex: 1;
+    padding-left: 35px;
 }
 
 .hero{
@@ -77,37 +72,31 @@ body{
 }
 
 .information{
-    display: flex;
-    flex-direction: column;
     background-color: white;
     color: #1F2937;
-    padding-right: 140px;
-    padding-left: 140px;
-    padding-top: 40px;
-    padding-bottom: 100px;
 }
 
 .information-text{
     text-align: center;
     font-size: 24px;
     font-weight: 800;
-    flex: 1;
+    padding-top: 40px;
     margin-bottom: 40px;
 }
 
 .information-sections{
-    flex: 1;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.information-sections div{
-    flex: 1;
+.information-section{
     display: flex;
+    border: 2px solid #3882F6;
     flex-direction: column;
 }
 
-.information-sections img{
-    flex: 1;
+.information-section img{
     border: 2px solid #3882F6;
     border-radius: 10px;
     width: 100px;
@@ -115,10 +104,11 @@ body{
     margin: auto;
 }
 
-.information-sections p{
-    flex: 1;
+.information-section p{
+    border: 2px solid #3882F6;
     text-align: center;
     font-size: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    width: 100px;
 }
