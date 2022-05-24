@@ -92,7 +92,6 @@ body{
 
 .information-section{
     display: flex;
-    border: 2px solid #3882F6;
     flex-direction: column;
 }
 
@@ -105,10 +104,26 @@ body{
 }
 
 .information-section p{
-    border: 2px solid #3882F6;
     text-align: center;
     font-size: 10px;
     padding-left: 15px;
     padding-right: 15px;
     width: 100px;
+    padding-bottom: 100px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    color: black;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-size: 26px;
+}
+
+.quote p{
+    font-size: 16px;
+    font-weight: 800;
+    text-align: right;
 }
